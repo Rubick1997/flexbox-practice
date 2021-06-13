@@ -10,12 +10,23 @@ ul {
   /* flex-direction: row;
   flex-wrap: wrap; */
   flex-flow: row wrap;
-  justify-content: space-evenly ;
-  height: 400px;
+  justify-content: center;
+  align-items: space-around;
   /* align-items: stretch; */
 }
 li {
   border: 5px solid #999;
   margin: 0.5em;
   padding: 0.5em;
+}
+
+.flex2 {
+  border: 4px dashed blue;
+  flex: 2 1 25%;
+}
+.flex6 {
+  order: 1;
+}
+.flex3 {
+  order: 2;
 }
